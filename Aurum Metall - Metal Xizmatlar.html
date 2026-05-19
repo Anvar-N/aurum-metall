@@ -173,15 +173,14 @@
 
         /* Hero Section */
         .hero {
-            text-align: center;
-            padding: 6rem 2rem;
-            color: var(--text-light);
             position: relative;
-            overflow: hidden;
-            background: 
-                linear-gradient(135deg, rgba(26, 26, 46, 0.75) 0%, rgba(22, 33, 62, 0.75) 100%),
-                url('Svarka.jpg') center/cover no-repeat;
-            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            background: transparent;
         }
 
         .hero::before {
@@ -871,9 +870,6 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="hero-content">
-            <h1>AURUM METALL</h1>
-            <p>Sifatli Metal Xizmatlar va Yechimlari</p>
-            <p style="color: #95a5a6; font-size: 1rem;">Svarka • Lazer Kesish • Metal Konteynerlar • Stelajlar • Nerjavika</p>
         </div>
     </section>
 
