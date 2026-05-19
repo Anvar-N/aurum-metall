@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <!-- saved from url=(0028)https://aurumuz.netlify.app/ -->
-<html lang="uz"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="uz">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://aurumuz.netlify.app/favicon.ico" type="image/x-icon">
     <title>Aurum Metall - Metal Xizmatlar</title>
@@ -25,13 +28,14 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: var(--text-dark);
-            background: url('Orqa fon.jpg') no-repeat center center fixed; background-size: cover;
+            background: url('Orqa fon.jpg') no-repeat center center fixed;
+            background-size: cover;
             position: relative;
             overflow-x: hidden;
         }
 
         /* Animated background */
-        
+
 
         /* Header */
         header {
@@ -195,8 +199,13 @@
         }
 
         @keyframes shimmer {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(100%);
+            }
         }
 
         .hero-content {
@@ -223,6 +232,7 @@
                 opacity: 0;
                 transform: translateY(-30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -234,6 +244,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -335,7 +346,7 @@
         }
 
         .contact-box {
-            background: linear-gradient(135deg, rgba(231, 76, 60, 0.1) 0%, rgba(243, 156, 18, 0.1) 100%);
+            background: linear-gradient(135deg, rgba(15, 32, 67, 0.85) 0%, rgba(9, 21, 44, 0.85) 100%);
             border: 2px solid rgba(243, 156, 18, 0.5);
             border-radius: 15px;
             padding: 3rem;
@@ -585,9 +596,11 @@
             0% {
                 box-shadow: 0 0 5px rgba(243, 156, 18, 0.5);
             }
+
             50% {
                 box-shadow: 0 0 20px rgba(243, 156, 18, 0.8), inset 0 0 20px rgba(243, 156, 18, 0.3);
             }
+
             100% {
                 box-shadow: 0 0 5px rgba(243, 156, 18, 0.5);
             }
@@ -595,7 +608,7 @@
 
         /* Main Intro Section */
         .main-intro {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.7) 0%, rgba(52, 73, 94, 0.7) 100%),
                 url('metal-cutting-laser-beam.webp') center/cover no-repeat;
             background-attachment: fixed;
@@ -606,7 +619,7 @@
             max-width: 95%;
             border: 8px solid;
             border-image: linear-gradient(135deg, var(--accent-color), var(--gold-color), var(--accent-color)) 1;
-            box-shadow: 
+            box-shadow:
                 0 0 0 3px rgba(44, 62, 80, 0.8),
                 inset 0 0 30px rgba(243, 156, 18, 0.1),
                 0 15px 40px rgba(0, 0, 0, 0.5);
@@ -640,8 +653,15 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0px); }
-            50% { transform: translateY(-30px); }
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-30px);
+            }
         }
 
         .main-intro-content {
@@ -665,6 +685,7 @@
                 opacity: 0;
                 transform: translateX(-50px);
             }
+
             to {
                 opacity: 1;
                 transform: translateX(0);
@@ -722,85 +743,86 @@
 
         /* Store Shelves Card Background */
         .service-card.shelves-card {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.75) 0%, rgba(52, 73, 94, 0.75) 100%),
                 url('Stelaj 2.webp') center/cover no-repeat;
             background-attachment: scroll;
         }
 
         .service-card.shelves-card:hover {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.6) 0%, rgba(52, 73, 94, 0.6) 100%),
                 url('Stelaj 2.webp') center/cover no-repeat;
         }
 
         /* Containers Card Background */
         .service-card.containers-card {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.75) 0%, rgba(52, 73, 94, 0.75) 100%),
                 url('chiqindi .webp') center/cover no-repeat;
             background-attachment: scroll;
         }
 
         .service-card.containers-card:hover {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.6) 0%, rgba(52, 73, 94, 0.6) 100%),
                 url('chiqindi .webp') center/cover no-repeat;
         }
 
         .service-card.reshotka-card {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.75) 0%, rgba(52, 73, 94, 0.75) 100%),
                 url('image copy.png') center/cover no-repeat;
             background-attachment: scroll;
         }
 
         .service-card.reshotka-card:hover {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.6) 0%, rgba(52, 73, 94, 0.6) 100%),
                 url('image copy.png') center/cover no-repeat;
         }
 
         .service-card.laser-card {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.75) 0%, rgba(52, 73, 94, 0.75) 100%),
                 url('Lazer 2.webp') center/cover no-repeat;
             background-attachment: scroll;
         }
 
         .service-card.laser-card:hover {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.6) 0%, rgba(52, 73, 94, 0.6) 100%),
                 url('Lazer 2.webp') center/cover no-repeat;
         }
 
         .service-card.laser-welding-card {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.75) 0%, rgba(52, 73, 94, 0.75) 100%),
                 url('Lazer.png') center/cover no-repeat;
             background-attachment: scroll;
         }
 
         .service-card.laser-welding-card:hover {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.6) 0%, rgba(52, 73, 94, 0.6) 100%),
                 url('Lazer.png') center/cover no-repeat;
         }
 
         .service-card.kraska-card {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.75) 0%, rgba(52, 73, 94, 0.75) 100%),
                 url('kraska.webp') center/cover no-repeat;
             background-attachment: scroll;
         }
 
         .service-card.kraska-card:hover {
-            background: 
+            background:
                 linear-gradient(135deg, rgba(44, 62, 80, 0.6) 0%, rgba(52, 73, 94, 0.6) 100%),
                 url('kraska.webp') center/cover no-repeat;
         }
     </style>
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -829,8 +851,10 @@
         <div class="main-intro-content">
             <h2 class="main-title">Aurum Metall - Sifatli Metal Xizmatlar</h2>
             <p class="main-description">
-                Aurum Metall - siz uchun barcha metal xizmatlarining ishonchli hamkori. Biz do'kon rastalari, nerjavika konteynerlar, 
-                nerjavika reshotkalar, lazer kesish, svarka va parashkavok ishlarida yuqori sifat va profesyonalligi bilan mashhur.
+                Aurum Metall - siz uchun barcha metal xizmatlarining ishonchli hamkori. Biz do'kon rastalari, nerjavika
+                konteynerlar,
+                nerjavika reshotkalar, lazer kesish, svarka va parashkavok ishlarida yuqori sifat va profesyonalligi
+                bilan mashhur.
             </p>
             <div class="features-row">
                 <div class="feature-item">
@@ -886,27 +910,28 @@
                 <div class="service-card containers-card" onclick="window.location.href='chiqindi-konteynerlari.html'">
                     <div class="service-icon"></div>
                     <h3>Chiqindi Konteynerlar</h3>
-                    <p>Savdo nuqtalari va firmalar uchun barcha turdagi nerjavika metall chiqindi konteynerlarini tayyorlash</p>
+                    <p>Savdo nuqtalari va firmalar uchun barcha turdagi nerjavika metall chiqindi konteynerlarini
+                        tayyorlash</p>
                 </div>
                 <div class="service-card reshotka-card" onclick="window.location.href='nerjavika-reshotka.html'">
                     <div class="service-icon"></div>
-                    <h3>Nerjavika va Reshotka</h3>
-                    <p>Har-xil turdagi nerjavika va metall reshotkalari yasash, o'rnatish va ta'mirlash xizmatlari</p>
+                    <h3>Nerjavika va Panjaralar</h3>
+                    <p>Har-xil turdagi nerjavika va metall panjaralar yasash, o'rnatish va ta'mirlash xizmatlari</p>
                 </div>
                 <div class="service-card laser-card" onclick="window.location.href='lazer-kesish.html'">
                     <div class="service-icon"></div>
                     <h3>Lazer Kesish</h3>
                     <p>Zamonaviy lazer aparati orqali metall qismlarini aniq va tez kesish xizmati</p>
                 </div>
-                <div class="service-card laser-welding-card" onclick="window.location.href='lazer-svarka.html'">
+                <div class="service-card laser-welding-card" onclick="window.location.href='lazer-payvandlash.html'">
                     <div class="service-icon"></div>
-                    <h3>Lazer Svarka</h3>
-                    <p>Yuqori sifatli lazer svarka texnologiyasi bilan detal va tuzilmalarni birlashtirish</p>
+                    <h3>Lazer Payvandlash</h3>
+                    <p>Yuqori sifatli lazer payvandlash texnologiyasi bilan detal va tuzilmalarni birlashtirish</p>
                 </div>
                 <div class="service-card kraska-card" onclick="window.location.href='parashkavok-kraska.html'">
                     <div class="service-icon"></div>
-                    <h3>Parashkavok Kraska</h3>
-                    <p>Metall mahsulotlarini sifatli parashkavok kraska bilan ishlov berish</p>
+                    <h3>Kukunli Bo'yoq</h3>
+                    <p>Metall mahsulotlarini sifatli kukunli bo'yoq bilan ishlov berish</p>
                 </div>
             </div>
         </div>
@@ -917,14 +942,17 @@
         <div class="container">
             <div class="contact-box">
                 <h2>Hoziroq Aloqaga Chiqing!</h2>
-                <p>Bizni ijtimoiy tarmoqlarda kuzatib boring. Sizning loyihaingiz uchun eng yaxshi yechimni topish uchun biz bilan bog'laning.</p>
+                <p>Bizni ijtimoiy tarmoqlarda kuzatib boring. Sizning loyihaingiz uchun eng yaxshi yechimni topish uchun
+                    biz bilan bog'laning.</p>
                 <a href="tel:+998702240111" class="contact-btn" id="callBtn">📞 +998 (70) 224-01-11</a>
                 <div class="social-links">
-                    <a href="https://www.instagram.com/aurum_metall" class="social-btn" title="Instagram" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/aurum_metall" class="social-btn" title="Instagram"
+                        target="_blank" rel="noopener noreferrer">
                         <img src="./Aurum Metall - Metal Xizmatlar_files/instagram-1-svgrepo-com.svg" alt="Instagram">
                         <span>Instagram</span>
                     </a>
-                    <a href="https://t.me/aurum_metalll" class="social-btn" title="Telegram" target="_blank" rel="noopener noreferrer">
+                    <a href="https://t.me/aurum_metalll" class="social-btn" title="Telegram" target="_blank"
+                        rel="noopener noreferrer">
                         <img src="./Aurum Metall - Metal Xizmatlar_files/Telegram_logo.svg.png" alt="Telegram">
                         <span>Telegram</span>
                     </a>
@@ -1007,11 +1035,11 @@
 
         // Add click effects to interactive elements
         document.addEventListener('click', (e) => {
-            if (e.target.tagName === 'BUTTON' || 
+            if (e.target.tagName === 'BUTTON' ||
                 e.target.classList.contains('service-card') ||
                 e.target.classList.contains('social-btn') ||
                 e.target.classList.contains('logo')) {
-                
+
                 createWeldingEffect(e.clientX, e.clientY);
                 createWeldingSound();
             }
@@ -1020,17 +1048,17 @@
         // Add glow effect when hovering
         const serviceCards = document.querySelectorAll('.service-card');
         serviceCards.forEach(card => {
-            card.addEventListener('mouseenter', function() {
+            card.addEventListener('mouseenter', function () {
                 this.classList.add('glow-effect');
             });
-            card.addEventListener('animationend', function() {
+            card.addEventListener('animationend', function () {
                 this.classList.remove('glow-effect');
             });
         });
 
         // Contact button functionality
         const callBtn = document.getElementById('callBtn');
-        callBtn.addEventListener('click', function(e) {
+        callBtn.addEventListener('click', function (e) {
             // Allow the tel: link to work, but add welding effects
             createWeldingEffect(window.innerWidth / 2, window.innerHeight / 2);
             createWeldingSound();
@@ -1051,11 +1079,13 @@
         });
 
         // Add parallax effect to hero section
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const hero = document.querySelector('.hero');
             hero.style.transform = 'translateY(' + window.scrollY * 0.5 + 'px)';
         });
     </script>
 
 
-</body></html>
+</body>
+
+</html>
